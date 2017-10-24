@@ -1,15 +1,15 @@
 <?php
 /**
- * DokuWiki Plugin authsplit (Auth Component)
+ * DokuWiki Plugin authsplitX (Auth Component)
  *
- * @license GPL 2 http://www.gnu.org/licenses/gpl-2.0.html
- * @author  Pieter Hollants <pieter@hollants.com>
+ * @license GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
+ * @author  Marcel Pietschmann <marcel.pietschmann@hhgym.de>
  */
 
 // must be run within Dokuwiki
 if(!defined('DOKU_INC')) die();
 
-class auth_plugin_authsplit extends DokuWiki_Auth_Plugin {
+class auth_plugin_authsplitX extends DokuWiki_Auth_Plugin {
     protected $authplugins;
     protected $autocreate_users;
     protected $debug;
